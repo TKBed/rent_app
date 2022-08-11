@@ -1,9 +1,11 @@
 .App {
+  background-color: #282c34;
   text-align: center;
+  color: white;
 }
 
 .App-logo {
-  height: 40vmin;
+  max-width: 40px;
   pointer-events: none;
 }
 
@@ -12,10 +14,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.spacing-header {
+  height: 20px;
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #93a2bf;
+  border: solid #626c80;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;

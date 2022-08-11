@@ -1,0 +1,52 @@
+.home-page {
+  display: flex;
+  height: 100vh;
+  padding-left: 4%;
+  .announcements {
+    background-color: #93a2bf;
+    border: solid #626c80;
+    width: 40%;
+    height: 80vh;
+    .announcements-title {
+      padding-top: 20px;
+      text-align: center;
+    }
+  }
+  .spacing {
+    padding-top: 40px;
+    width: 8%;
+  }
+  .resources {
+    width: 20%;
+    background-color: #93a2bf;
+    border: solid #626c80;
+    height: 85vh;
+  }
+  .directory {
+    width: 20%;
+    .menu {
+      background-color: #93a2bf;
+      border: solid #626c80;
+      height: 50vh;
+    }
+    .top-space {
+      height: 20px;
+    }
+    .rent {
+      .button-spacing {
+        height: 20px;
+      }
+      background-color: #93a2bf;
+      border: solid #626c80;
+      height: 32vh;
+      .button-style {
+        background-color: #282c34;
+      }
+    }
+  }
+}
+.sub-heading {
+  padding-top: 20px;
+  margin-left: 2px;
+  text-align: center;
+}
